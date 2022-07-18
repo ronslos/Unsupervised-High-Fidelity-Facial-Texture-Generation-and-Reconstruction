@@ -194,7 +194,7 @@ class ReconModelOrig(nn.Module):
         #                                 fov=2 * np.arctan(self.img_size // 2 / self.focal) * 180. / np.pi)
         self.cameras = PerspectiveCameras(device=device, R=R, T=T, focal_length=((self.focal[0], self.focal[1]),),
                                           principal_point=((self.img_size[0] / 2, self.img_size[1] / 2),),
-                                          image_size=((self.img_size[0], self.img_size[1]),))
+                                          image_size=((self.img_size[0], self.img_size[1]),), in_ndc=False)
         lights = PointLights(device=device, location=[[0.0, 0.0, 1e5]], ambient_color=[[1., 1., 1.]],
                              specular_color=[[0, 0, 0]], diffuse_color=[[0.0, 0.0, 0.0]])
         # lights = AmbientLights(device=device)
