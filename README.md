@@ -53,7 +53,7 @@ Trained generator weights can be downloaded from [Google Drive.](https://drive.g
 
 ## Citation
 
-Our model is based on [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch). Please cite
+Our repo is based on [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch). Please cite
 
 ```
 @inproceedings{Karras2020ada,
