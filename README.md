@@ -53,6 +53,17 @@ Trained generator weights can be downloaded from [Google Drive.](https://drive.g
 
 ## Citation
 
+Our model is based on [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch). Please cite
+
+```
+@inproceedings{Karras2020ada,
+  title     = {Training Generative Adversarial Networks with Limited Data},
+  author    = {Tero Karras and Miika Aittala and Janne Hellsten and Samuli Laine and Jaakko Lehtinen and Timo Aila},
+  booktitle = {Proc. NeurIPS},
+  year      = {2020}
+}
+```
+
 ```
 @article{slossberg2021unsupervised,
   title={Unsupervised High-Fidelity Facial Texture Generation and Reconstruction},
@@ -60,3 +71,4 @@ Trained generator weights can be downloaded from [Google Drive.](https://drive.g
   journal={arXiv preprint arXiv:2110.04760},
   year={2021}
 }
+```
