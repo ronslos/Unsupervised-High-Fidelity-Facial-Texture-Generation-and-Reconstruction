@@ -47,7 +47,7 @@ The leftmost column provides a zoomed-in crop, highlighting the high resolution 
 The proposed method presents finer details and realism as compared to both previous methods, even though one of the competing methods is supervised by scanned textures.
 ![Texture and textured geometry generation results](./paperImages/gen_results.png)
 
-Trained generator weights can be downloaded from [Google Drive.](https://drive.google.com/file/d/1ImhegcP622fVOBteNeeq9B9Li_qYpAjZ/view?usp=sharing)
+Trained generator weights can be downloaded from [Google Drive.](https://drive.google.com/drive/folders/1WYTv-QfVhLElg38xDRfkvbCukawIpXHz?usp=share_link)
 
 **Additional details, results, and ablation study are provided within our paper.**
 
