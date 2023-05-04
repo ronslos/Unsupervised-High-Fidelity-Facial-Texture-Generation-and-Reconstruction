@@ -65,10 +65,12 @@ Our repo is based on [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pyt
 ```
 
 ```
-@article{slossberg2021unsupervised,
-  title={Unsupervised High-Fidelity Facial Texture Generation and Reconstruction},
+@inproceedings{slossberg2022unsupervised,
+  title={Unsupervised high-fidelity facial texture generation and reconstruction},
   author={Slossberg, Ron and Jubran, Ibrahim and Kimmel, Ron},
-  journal={arXiv preprint arXiv:2110.04760},
-  year={2021}
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XIII},
+  pages={212--229},
+  year={2022},
+  organization={Springer}
 }
 ```
